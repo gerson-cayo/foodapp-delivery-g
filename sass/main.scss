@@ -1,0 +1,34 @@
+//Variables
+$primary: #1a202e;
+$secundary: #4a5568;
+$orange: #ed8936;
+$boton-add: #e2e8f0;
+
+
+//Bootstrap
+
+@import'bootstrap/bootstrap.scss';
+
+//=================================================
+
+body{
+	font-family: 'Poppins', sans-serif;
+    color: $primary;
+    padding-left: 1.5rem;
+	padding-right: 1.5rem;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+a, .btn-link{
+	&:hover{
+		text-decoration: none;
+	}
+}
