@@ -9998,3 +9998,77 @@ header .avatar-container i {
 .profile-options-modal .profile-options-list li a .rojo {
   color: red;
 }
+
+.main {
+  padding-top: 80px;
+}
+
+.search-container {
+  padding-top: 30px;
+}
+.search-container input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+.search-container button {
+  background-color: #ed8936;
+  color: #ffffff;
+}
+
+.products-list-container {
+  padding-top: 30px;
+}
+.products-list-container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.products-list-container ul li {
+  border: 2px solid #ebebeb;
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.products-list-container ul li .product-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.products-list-container ul li .product-info {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.products-list-container ul li .product-name {
+  font-weight: 700;
+  font-size: 20px;
+  color: #4a5568;
+}
+.products-list-container ul li .descripcion {
+  margin-bottom: 10px;
+  font-size: 11px;
+  color: #807e7e;
+  font-weight: 600;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.products-list-container ul li .product-price {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 300;
+  color: #4a5568;
+  opacity: 0.9;
+}
+.products-list-container ul li .pedir button {
+  background-color: #E2E8F0;
+  color: #4a5568;
+}
